@@ -1,0 +1,8 @@
+name: 🐙Workflows Master🐙
+on:
+  workflow_dispatch:
+jobs:
+  Try_to_get_file:
+    uses: spsdevops/DevOps_Master/.github/workflows/reusable_get_file.yml@main
+    secrets: inherit
+permissions: write-all
